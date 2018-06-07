@@ -16,9 +16,20 @@ export class AppHome {
           Below is a stencil generated web component which has been imported from npm
         </p>
         <h4>vvv Consumed web component should be below vvv</h4>
-        <p>
-          <ps-web-component first="A Web" last="Component"></ps-web-component>
-        </p>
+        <div>
+          <div class="component-container">
+            <ps-web-component first="First" last="Component"></ps-web-component>
+          </div>
+          <div class="component-container">
+            <ps-web-component first="Second" last="Component"></ps-web-component>
+          </div>
+          <div class="component-container">
+            <ps-web-component first="Third" last="Component"></ps-web-component>
+          </div>
+          <div class="component-container">
+            <ps-web-component first="Forth" last="Component"></ps-web-component>
+          </div>
+        </div>
         <h4>^^^ Consumed web component should be above ^^^</h4>
       </div>
     );

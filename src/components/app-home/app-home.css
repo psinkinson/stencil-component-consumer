@@ -1,6 +1,27 @@
 .app-home {
   padding: 10px;
 }
+.component-container {
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: cadetblue;
+}
+@media (min-width:500px) {
+  .component-container {
+    display: inline-block;
+    width: 50%;
+  }
+}
+@media (min-width:650px) {
+  .component-container {
+    width: 33.33%;
+  }
+}
+@media (min-width:800px) {
+  .component-container {
+    width: 25%;
+  }
+}
 
 button {
   background: #5851ff;
